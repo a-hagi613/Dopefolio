@@ -36,3 +36,7 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
