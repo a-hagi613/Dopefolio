@@ -719,7 +719,8 @@ textarea {
       overflow: hidden;
       border-right: 3px solid;
       font-family: monospace;
-      font-size: 4em;
+      font-size: 3em;
+      font-weight: bolder;
     }
     
     @keyframes typing {
